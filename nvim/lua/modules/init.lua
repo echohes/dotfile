@@ -15,6 +15,13 @@ return require('packer').startup {
         use 'wbthomason/packer.nvim'
         --theme
         use 'gruvbox-community/gruvbox'
+        -- plugin that renders diagnostics using virtual lines
+        use {
+            'https://git.sr.ht/~whynothugo/lsp_lines.nvim',
+            config = function()
+                require('lsp_lines').setup()
+            end
+        }
         --tree
         use {
             "kyazdani42/nvim-tree.lua",
