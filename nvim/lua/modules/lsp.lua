@@ -14,7 +14,7 @@ local on_attach = function(client, bufnr)
     map('n', '<leader>af', '<cmd>lua vim.lsp.buf.code_action()<CR>')
     map('n', '<leader>ee', '<cmd>lua vim.lsp.util.show_line_diagnostics()<CR>')
     map('n', '<leader>ar', '<cmd>lua vim.lsp.buf.rename()<CR>')
-    map('n', '<leader>=', '<cmd>lua vim.lsp.buf.formatting()<CR>')
+    map('n', '<leader>ff', '<cmd>lua vim.lsp.buf.format({ async = true })<CR>')
     map('n', '<leader>ai', '<cmd>lua vim.lsp.buf.incoming_calls()<CR>')
     map('n', '<leader>ao', '<cmd>lua vim.lsp.buf.outgoing_calls()<CR>')
 end
