@@ -12,11 +12,10 @@
 - [ ] [Lua](https://github.com/sumneko/lua-language-server)
 
 #### Neovim setup:
-```
-Install lsp server from script in install_lsp
 
-```
+##### 1) Install lsp server from script in install_lsp
 
+##### 2) Install neovim plugins:
 ```
 nvim +PackerSync
 ```
