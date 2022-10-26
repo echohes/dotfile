@@ -19,3 +19,7 @@
 ```
 nvim +PackerSync
 ```
+
+#### For the correct image of the icons, you need to install nerd fonts. In scripts nerd_fonts_install.sh, example install DejaVuSansMono. After install, you need change fonts in your terminal.
+
+- [ ] [More Nerd Fonts](https://www.nerdfonts.com/font-downloads)
